@@ -1,0 +1,18 @@
+
+<script>
+	//if a number is Power of 2 print power of 2
+  // else print not a power of 2
+    var n=1022;
+    var binaryCode="";
+   	binaryCode+=n.toString(2);
+    var numberOfOnes=0;
+    for(var i=0;i<binaryCode.length;i++)
+    if(binaryCode[i]=='1')
+    numberOfOnes++;
+    
+    if(numberOfOnes===1)
+    console.log("Power of 2");
+    else
+    console.log("Not a power of 2");
+ 	
+</script>

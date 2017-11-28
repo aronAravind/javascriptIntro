@@ -1,0 +1,20 @@
+<script>
+	//if number is prime return 1 or return greatest factor
+ 	
+    var number=1312124;
+    var hasFactors=false;
+    var greatestFactor;
+    for(var i=2;i<=Math.sqrt(number);i++)
+    {
+    		if(number%i==0){
+            hasFactors=true;
+            greatestFactor=i;
+            }
+            
+     }
+     if(!hasFactors)
+     console.log(1);
+     else
+     console.log(greatestFactor);
+     
+</script>

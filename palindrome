@@ -1,0 +1,14 @@
+<script>
+	
+  var stringInput = ['pandnap','badguy'];
+  for(var
+  var reverseInput = '';
+  for(var i=stringInput.length-1;i>=0;i--)
+  reverseInput+=stringInput[i];
+  
+  if(stringInput===reverseInput)
+  console.log("palindrome");
+  else
+  console.log("Not a palindrome");
+
+</script>

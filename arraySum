@@ -1,0 +1,10 @@
+<script>
+	
+  var intArray=[1,4,6,9,2,3];
+  var sum=0;
+  for(var i=0;i<intArray.length;i++)
+  sum+=intArray[i];
+
+	console.log('array sum = '+sum);
+
+</script>

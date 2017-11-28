@@ -1,0 +1,13 @@
+<script>
+	//chocolates problem
+    
+    var totalDays=530;
+    var oddDays;
+    if(totalDays%2===0)
+    oddDays=totalDays/2;
+    else
+    oddDays=(totalDays/2)+1;
+    
+    console.log(Math.pow(oddDays,2));
+
+</script>

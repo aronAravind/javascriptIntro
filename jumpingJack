@@ -1,0 +1,20 @@
+
+<script>
+	
+	// jumping jack hackerrank problem
+    
+   	var n=5;
+    var k =3;
+    var totalSteps=0;
+    for(var i=1;i<=n;i++){
+    	
+        totalSteps+=i;
+    	if(i==k)
+    	totalSteps-=1;
+    
+    }
+    
+    console.log(totalSteps);
+    
+
+</script>
